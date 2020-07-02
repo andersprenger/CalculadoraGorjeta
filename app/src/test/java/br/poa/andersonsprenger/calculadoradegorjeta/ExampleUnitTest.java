@@ -1,4 +1,4 @@
-package br.poa.andersonsprenger.calculadoradegorgeta;
+package br.poa.andersonsprenger.calculadoradegorjeta;
 
 import org.junit.Test;
 
