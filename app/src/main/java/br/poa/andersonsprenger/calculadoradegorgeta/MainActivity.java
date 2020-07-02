@@ -67,8 +67,8 @@ public class MainActivity extends AppCompatActivity {
         percentBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-
                 percent = percentBar.getProgress();
+                percentText.setText(percent + "%");
                 update();
             }
 
