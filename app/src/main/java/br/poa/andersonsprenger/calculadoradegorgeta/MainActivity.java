@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViews();
+        //quantText.setMa
         loadListeners();
     }
 
@@ -87,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void update(){
         try {
-            gorjeta = total * percent / 100;
+            gorjeta = quant * percent / 100;
             total = quant + gorjeta;
             gorjetaOutText.setText("R$ " + decimalFormat.format(gorjeta));
             totalOutText.setText("R$ " + decimalFormat.format(total));

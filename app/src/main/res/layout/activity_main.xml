@@ -30,7 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite um valor ex 9.90"
-            android:inputType="numberDecimal" />
+            android:inputType="numberDecimal"
+            android:maxLength="22" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <SeekBar
